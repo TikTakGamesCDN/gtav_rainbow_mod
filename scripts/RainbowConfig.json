@@ -1,134 +1,137 @@
 {
-  "container": {
-    "width": 2.65,
-    "height": 2.65,
-    "length": 12.0, 
-	"models": [
-		"prop_container_01d",
-		"prop_container_ld2",
-		"prop_container_ld_d",
-		"prop_container_01c",
-		"prop_container_01h",
-		"prop_container_01mb",
-		"prop_container_01e",
-		"prop_container_01f",
-		"prop_container_01a",
-		"prop_container_01g",
-		"prop_container_01b"
-	]
-  },
-  "gift_events": [
-    {
-      "id": 5655,
-      "vehicle_name": "Cheetah",
-      "count": 5
+    "container": {
+        "width": 2.65,
+        "height": 2.65,
+        "length": 12.0,
+        "models": [
+            "prop_container_ld2",
+            "prop_container_01mb"
+        ],
+        "models_full": [
+            "prop_container_01d",
+            "prop_container_ld2",
+            "prop_container_ld_d",
+            "prop_container_01c",
+            "prop_container_01h",
+            "prop_container_01mb",
+            "prop_container_01e",
+            "prop_container_01f",
+            "prop_container_01a",
+            "prop_container_01g",
+            "prop_container_01b"
+        ]
     },
-    {
-      "id": 5269,
-      "vehicle_name": "Bati",
-      "count": 5
+    "gift_events": [{
+            "id": 5655,
+            "vehicle_name": "Cheetah",
+            "count": 5
+        },
+        {
+            "id": 5269,
+            "vehicle_name": "Bati",
+            "count": 5
+        },
+        {
+            "id": 5319,
+            "vehicle_name": "Ambulance",
+            "count": 5
+        },
+        {
+            "id": 5282,
+            "vehicle_name": "Bulldozer ",
+            "count": 5
+        },
+        {
+            "id": 5487,
+            "vehicle_name": "Marshall",
+            "count": 5
+        },
+        {
+            "id": 8097,
+            "vehicle_name": "Stunt",
+            "count": 5
+        },
+        {
+            "id": 5658,
+            "vehicle_name": "Lazer",
+            "count": 5
+        },
+        {
+            "id": 5879,
+            "vehicle_name": "HalfTrack",
+            "count": 10
+        },
+        {
+            "id": 5924,
+            "vehicle_name": "Bus",
+            "count": 25
+
+        },
+        {
+            "id": 5300,
+            "vehicle_name": "Valkyrie2",
+            "count": 25
+        },
+        {
+            "id": 5509,
+            "vehicle_name": "Cerberus3",
+            "count": 25
+        }
+    ],
+    "join_event": {
+        "vehicle_name": "Cruiser",
+        "count": 1
     },
-    {
-      "id": 5319,
-      "vehicle_name": "Ambulance",
-      "count": 5
+    "comment_event": {
+        "vehicle_name": "Inductor",
+        "count": 2,
+        "comment_count": 5
     },
-    {
-      "id": 5282,
-      "vehicle_name": "Bulldozer ",
-      "count": 5
+    "like_event": {
+        "vehicle_name": "Stryder",
+        "count": 5,
+        "like_count": 100
     },
-    {
-      "id": 5487,
-      "vehicle_name": "Marshall",
-      "count": 5
+    "share_event": {
+        "vehicle_name": "Havok",
+        "count": 5
     },
-    {
-      "id": 8097,
-      "vehicle_name": "Stunt",
-      "count": 5
+    "follow_event": {
+        "vehicle_name": "Avenger",
+        "count": 5
     },
-    {
-      "id": 5658,
-      "vehicle_name": "Lazer",
-      "count": 5
+    "subscribe_event": {
+        "vehicle_name": "FireTruck",
+        "count": 100
     },
-    {
-      "id": 5879,
-      "vehicle_name": "HalfTrack",
-      "count": 10
+    "origin": {
+        "X": 2697.0,
+        "Y": -4250.0,
+        "Z": 61.0
     },
-    {
-      "id": 5924,
-      "vehicle_name": "Bus",
-      "count": 25
-      
+    "heading": 70.0,
+    "slope": 24.0,
+    "lane_count": 7,
+    "lane_length": 200.0,
+    "wall_floor_count": 2,
+    "force_on_spawn": 10,
+    "force_on_tick": 0.4,
+    "vehicle_min_velocity": 20,
+    "player_name_text_size": 0.24,
+    "player_name_text_color": "#FFFFFF",
+    "vehicle_destroy_time": 15,
+    "vehicle_can_take_damage": false,
+    "hour": 12,
+    "weather": "ExtraSunny",
+    "score_info": {
+        "join": 0.01,
+        "comment": 0.1,
+        "like": 0.02,
+        "gift": 2,
+        "share": 5,
+        "follow": 10,
+        "subscribe": 1000,
+        "hit": 25
     },
-    {
-      "id": 5300,
-      "vehicle_name": "Valkyrie2",
-      "count": 25 
-    },
-    {
-      "id": 5509,
-      "vehicle_name": "Cerberus3",
-      "count": 25 
-    }
-  ],
-  "join_event": {
-      "vehicle_name": "Cruiser",
-      "count": 1
-  },
-  "comment_event": {
-      "vehicle_name": "Inductor",
-      "count": 2, 
-	  "comment_count": 5
-  },
-  "like_event": {
-      "vehicle_name": "Stryder",
-      "count": 5,
-	  "like_count": 100	  
-  },
-  "share_event": {
-      "vehicle_name": "Havok",
-      "count": 5 
-  },
-  "follow_event": {
-      "vehicle_name": "Avenger",
-      "count": 5 
-  },
-  "subscribe_event": {
-      "vehicle_name": "FireTruck",
-      "count": 100
-  },
-  "origin": {
-    "X": 2697.0,
-    "Y": -4250.0,
-    "Z": 61.0
-  },
-  "heading": 70.0,
-  "slope": 24.0,
-  "lane_count": 7,
-  "lane_length": 200.0,
-  "wall_floor_count": 2,
-  "force_on_spawn": 10,
-  "force_on_tick": 0.4,
-  "vehicle_min_velocity": 20,
-  "player_name_text_size": 0.24,
-  "player_name_text_color": "#FFFFFF",
-  "vehicle_destroy_time": 15,
-  "vehicle_can_take_damage": false,
-  "hour": 12,
-  "weather": "ExtraSunny",
-  "score_info": {
-	  "join": 0.01, 
-	  "comment": 0.1, 
-	  "like": 0.02,
-	  "gift": 2,
-	  "share": 5,
-	  "follow": 10,
-	  "subscribe": 1000,
-	  "hit": 25
-  },
-  "spawn_interval":100
+    "spawn_interval": 100
 }
